@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="UTF‑8"?>
+<xbrli:xbrl
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:bas3="http://bis.org/basel3/km1"
+  xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+  xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xsi:schemaLocation="http://bis.org/basel3/km1 bas3-km1.xsd">
+
+
+  <link:schemaRef xlink:type="simple" xlink:href="bas3-km1.xsd" />
+
+  <!-- Definition of contexts for five quarters (T to T-4) -->
+  <xbrli:context id="raAST.fCU.t_Z.ofPOST.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raAST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raAST.fCU.t_Z.ofPRE.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raAST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tCET1.of_Z.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tTIER1.of_Z.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.t_T.of_Z.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tCET1.of_Z.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tTIER1.of_Z.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.t_T.ofPOST.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.t_T.ofPRE.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tCET1.ofPOST.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tCET1.ofPRE.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tTIER1.ofPOST.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tTIER1.ofPRE.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.t_T.ofPOST.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tCET1.ofPOST.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tTIER1.ofPOST.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raP1R.fCU.tCET1.of_Z.cbr_Z.T">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-04-01</xbrli:startDate>
+      <xbrli:endDate>2025-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raP1R</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+
+  <xbrli:context id="raAST.fCU.t_Z.ofPOST.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raAST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raAST.fCU.t_Z.ofPRE.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raAST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tCET1.of_Z.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tTIER1.of_Z.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.t_T.of_Z.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tCET1.of_Z.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tTIER1.of_Z.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.t_T.ofPOST.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.t_T.ofPRE.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tCET1.ofPOST.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tCET1.ofPRE.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tTIER1.ofPOST.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tTIER1.ofPRE.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.t_T.ofPOST.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tCET1.ofPOST.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tTIER1.ofPOST.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raP1R.fCU.tCET1.of_Z.cbr_Z.T-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2025-01-01</xbrli:startDate>
+      <xbrli:endDate>2025-03-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raP1R</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+
+  <xbrli:context id="raAST.fCU.t_Z.ofPOST.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raAST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raAST.fCU.t_Z.ofPRE.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raAST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tCET1.of_Z.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tTIER1.of_Z.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.t_T.of_Z.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tCET1.of_Z.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tTIER1.of_Z.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.t_T.ofPOST.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.t_T.ofPRE.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tCET1.ofPOST.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tCET1.ofPRE.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tTIER1.ofPOST.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tTIER1.ofPRE.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.t_T.ofPOST.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tCET1.ofPOST.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tTIER1.ofPOST.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raP1R.fCU.tCET1.of_Z.cbr_Z.T-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-10-01</xbrli:startDate>
+      <xbrli:endDate>2024-12-31</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raP1R</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+
+  <xbrli:context id="raAST.fCU.t_Z.ofPOST.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raAST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raAST.fCU.t_Z.ofPRE.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raAST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tCET1.of_Z.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tTIER1.of_Z.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.t_T.of_Z.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tCET1.of_Z.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tTIER1.of_Z.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.t_T.ofPOST.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.t_T.ofPRE.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tCET1.ofPOST.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tCET1.ofPRE.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tTIER1.ofPOST.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tTIER1.ofPRE.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.t_T.ofPOST.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tCET1.ofPOST.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tTIER1.ofPOST.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raP1R.fCU.tCET1.of_Z.cbr_Z.T-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-07-01</xbrli:startDate>
+      <xbrli:endDate>2024-09-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raP1R</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+
+  <xbrli:context id="raAST.fCU.t_Z.ofPOST.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raAST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raAST.fCU.t_Z.ofPRE.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raAST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tCET1.of_Z.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tTIER1.of_Z.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.t_T.of_Z.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tCET1.of_Z.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tTIER1.of_Z.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.t_T.ofPOST.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.t_T.ofPRE.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tCET1.ofPOST.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tCET1.ofPRE.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tTIER1.ofPOST.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fCU.tTIER1.ofPRE.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPRE</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.t_T.ofPOST.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:t_T</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tCET1.ofPOST.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raCAP.fFL.tTIER1.ofPOST.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raCAP</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fFL</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tTIER1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:ofPOST</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+  <xbrli:context id="raP1R.fCU.tCET1.of_Z.cbr_Z.T-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">H7FNTJ4851HG0EXQ1Z70</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2024-04-01</xbrli:startDate>
+      <xbrli:endDate>2024-06-30</xbrli:endDate>
+    </xbrli:period>
+    <xbrli:scenario>
+      <xbrldi:explicitMember dimension="bas3:RegulatoryDomainAxis">bas3:raP1R</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:FrameworkAxis">bas3:fCU</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:TierAxis">bas3:tCET1</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:OutputFloorAxis">bas3:of_Z</xbrldi:explicitMember>
+      <xbrldi:explicitMember dimension="bas3:CBReservesAxis">bas3:cbr_Z</xbrldi:explicitMember>
+    </xbrli:scenario>
+  </xbrli:context>
+
+
+  <xbrli:unit id="uUSD">
+    <xbrli:measure>iso4217:USD</xbrli:measure>
+  </xbrli:unit>
+
+  <!-- Facts for each context -->
+  <bas3:RWA contextRef="raAST.fCU.t_Z.ofPOST.cbr_Z.T" unitRef="uUSD" decimals="0">14</bas3:RWA>
+  <bas3:RWA contextRef="raAST.fCU.t_Z.ofPOST.cbr_Z.T-1" unitRef="uUSD" decimals="0">14</bas3:RWA>
+  <bas3:RWA contextRef="raAST.fCU.t_Z.ofPRE.cbr_Z.T" unitRef="uUSD" decimals="0">14</bas3:RWA>
+  <bas3:RWA contextRef="raAST.fCU.t_Z.ofPRE.cbr_Z.T-1" unitRef="uUSD" decimals="0">15</bas3:RWA>
+  <bas3:RWA contextRef="raAST.fCU.t_Z.ofPRE.cbr_Z.T-2" unitRef="uUSD" decimals="0">16</bas3:RWA>
+  <bas3:CAP contextRef="raCAP.fCU.tCET1.of_Z.cbr_Z.T" unitRef="uUSD" decimals="0">12</bas3:CAP>
+  <bas3:CAP contextRef="raCAP.fCU.tCET1.of_Z.cbr_Z.T-1" unitRef="uUSD" decimals="0">11</bas3:CAP>
+  <bas3:CAP contextRef="raCAP.fCU.tTIER1.of_Z.cbr_Z.T" unitRef="uUSD" decimals="0">12</bas3:CAP>
+  <bas3:CAP contextRef="raCAP.fFL.t_T.of_Z.cbr_Z.T" unitRef="uUSD" decimals="0">17</bas3:CAP>
+  <bas3:CAP contextRef="raCAP.fFL.t_T.of_Z.cbr_Z.T-1" unitRef="uUSD" decimals="0">18</bas3:CAP>
+  <bas3:CAP contextRef="raCAP.fFL.t_T.of_Z.cbr_Z.T-2" unitRef="uUSD" decimals="0">17</bas3:CAP>
+  <bas3:CAP contextRef="raCAP.fFL.t_T.of_Z.cbr_Z.T-3" unitRef="uUSD" decimals="0">17</bas3:CAP>
+  <bas3:CAP contextRef="raCAP.fFL.t_T.of_Z.cbr_Z.T-4" unitRef="uUSD" decimals="0">17</bas3:CAP>
+  <bas3:CAP contextRef="raCAP.fFL.tCET1.of_Z.cbr_Z.T" unitRef="uUSD" decimals="0">13.3</bas3:CAP>
+  <bas3:CAP contextRef="raCAP.fFL.tCET1.of_Z.cbr_Z.T-1" unitRef="uUSD" decimals="0">12.2</bas3:CAP>
+  <bas3:CAP contextRef="raCAP.fFL.tCET1.of_Z.cbr_Z.T-2" unitRef="uUSD" decimals="0">13.5</bas3:CAP>
+  <bas3:CAP contextRef="raCAP.fFL.tTIER1.of_Z.cbr_Z.T" unitRef="uUSD" decimals="0">14</bas3:CAP>
+  <bas3:CAP contextRef="raCAP.fFL.tTIER1.of_Z.cbr_Z.T-1" unitRef="uUSD" decimals="0">14</bas3:CAP>
+  <bas3:RTO contextRef="raCAP.fCU.t_T.ofPOST.cbr_Z.T" unitRef="uUSD" decimals="0">17</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.t_T.ofPOST.cbr_Z.T-1" unitRef="uUSD" decimals="0">18</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.t_T.ofPOST.cbr_Z.T-2" unitRef="uUSD" decimals="0">17</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.t_T.ofPOST.cbr_Z.T-3" unitRef="uUSD" decimals="0">17</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.t_T.ofPOST.cbr_Z.T-4" unitRef="uUSD" decimals="0">17</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.t_T.ofPRE.cbr_Z.T" unitRef="uUSD" decimals="0">14</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.t_T.ofPRE.cbr_Z.T-1" unitRef="uUSD" decimals="0">15</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.t_T.ofPRE.cbr_Z.T-2" unitRef="uUSD" decimals="0">16</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.tCET1.ofPOST.cbr_Z.T" unitRef="uUSD" decimals="0">17</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.tCET1.ofPOST.cbr_Z.T-1" unitRef="uUSD" decimals="0">18</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.tCET1.ofPOST.cbr_Z.T-2" unitRef="uUSD" decimals="0">17</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.tCET1.ofPOST.cbr_Z.T-3" unitRef="uUSD" decimals="0">17</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.tCET1.ofPOST.cbr_Z.T-4" unitRef="uUSD" decimals="0">17</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.tCET1.ofPRE.cbr_Z.T" unitRef="uUSD" decimals="0">14</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.tCET1.ofPRE.cbr_Z.T-1" unitRef="uUSD" decimals="0">15</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.tCET1.ofPRE.cbr_Z.T-2" unitRef="uUSD" decimals="0">16</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.tTIER1.ofPOST.cbr_Z.T" unitRef="uUSD" decimals="0">17</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.tTIER1.ofPOST.cbr_Z.T-1" unitRef="uUSD" decimals="0">18</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.tTIER1.ofPOST.cbr_Z.T-2" unitRef="uUSD" decimals="0">17</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.tTIER1.ofPOST.cbr_Z.T-3" unitRef="uUSD" decimals="0">17</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.tTIER1.ofPOST.cbr_Z.T-4" unitRef="uUSD" decimals="0">17</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.tTIER1.ofPRE.cbr_Z.T" unitRef="uUSD" decimals="0">14</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.tTIER1.ofPRE.cbr_Z.T-1" unitRef="uUSD" decimals="0">15</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fCU.tTIER1.ofPRE.cbr_Z.T-2" unitRef="uUSD" decimals="0">16</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fFL.t_T.ofPOST.cbr_Z.T" unitRef="uUSD" decimals="0">14</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fFL.t_T.ofPOST.cbr_Z.T-1" unitRef="uUSD" decimals="0">14</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fFL.tCET1.ofPOST.cbr_Z.T" unitRef="uUSD" decimals="0">14</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fFL.tCET1.ofPOST.cbr_Z.T-1" unitRef="uUSD" decimals="0">14</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fFL.tTIER1.ofPOST.cbr_Z.T" unitRef="uUSD" decimals="0">14</bas3:RTO>
+  <bas3:RTO contextRef="raCAP.fFL.tTIER1.ofPOST.cbr_Z.T-1" unitRef="uUSD" decimals="0">14</bas3:RTO>
+  <bas3:CCB contextRef="raP1R.fCU.tCET1.of_Z.cbr_Z.T" unitRef="uUSD" decimals="0">17</bas3:CCB>
+  <bas3:CCB contextRef="raP1R.fCU.tCET1.of_Z.cbr_Z.T-1" unitRef="uUSD" decimals="0">18</bas3:CCB>
+  <bas3:CCB contextRef="raP1R.fCU.tCET1.of_Z.cbr_Z.T-2" unitRef="uUSD" decimals="0">17</bas3:CCB>
+  <bas3:CCB contextRef="raP1R.fCU.tCET1.of_Z.cbr_Z.T-3" unitRef="uUSD" decimals="0">17</bas3:CCB>
+  <bas3:CCB contextRef="raP1R.fCU.tCET1.of_Z.cbr_Z.T-4" unitRef="uUSD" decimals="0">17</bas3:CCB>
+  <bas3:CCYB contextRef="raP1R.fCU.tCET1.of_Z.cbr_Z.T" unitRef="uUSD" decimals="0">17</bas3:CCYB>
+  <bas3:CCYB contextRef="raP1R.fCU.tCET1.of_Z.cbr_Z.T-1" unitRef="uUSD" decimals="0">18</bas3:CCYB>
+  <bas3:CCYB contextRef="raP1R.fCU.tCET1.of_Z.cbr_Z.T-2" unitRef="uUSD" decimals="0">17</bas3:CCYB>
+  <bas3:CCYB contextRef="raP1R.fCU.tCET1.of_Z.cbr_Z.T-3" unitRef="uUSD" decimals="0">17</bas3:CCYB>
+  <bas3:CCYB contextRef="raP1R.fCU.tCET1.of_Z.cbr_Z.T-4" unitRef="uUSD" decimals="0">17</bas3:CCYB>
+
+
+</xbrli:xbrl>

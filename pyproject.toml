@@ -1,0 +1,22 @@
+package-mode = false 
+
+[project]
+name = "xbrl"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "antonio.olleros",email = "antonio.olleros@meaningfuldata.eu"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "arelle-release[crypto,db,efm,objectmaker,webserver] (>=2.37.46,<3.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "pysdmx[all] (>=1.4.0,<2.0.0)",
+    "ipykernel (>=6.30.1,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

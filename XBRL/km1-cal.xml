@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF‑8"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               xmlns:bas3="http://bis.org/basel3/km1">
+  <link:calculationLink xlink:type="extended" xlink:role="http://bis.org/role/presentationRole">
+    <link:loc xlink:type="locator" xlink:href="bas3‑km1.xsd#bas3.CAP" xlink:label="locCAP"/>
+    <link:loc xlink:type="locator" xlink:href="bas3‑km1.xsd#bas3.CCB" xlink:label="locCCB"/>
+    <link:loc xlink:type="locator" xlink:href="bas3‑km1.xsd#bas3.CCYB" xlink:label="locCCYB"/>
+    <link:calculationArc arcrole="http://www.xbrl.org/2003/arcrole/summation‑item"
+                         from="locCAP" to="locCCB" order="1" weight="1"/>
+    <link:calculationArc arcrole="http://www.xbrl.org/2003/arcrole/summation‑item"
+                         from="locCAP" to="locCCYB" order="2" weight="1"/>
+  </link:calculationLink>
+</link:linkbase>

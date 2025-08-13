@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF‑8"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               xmlns:bas3="http://bis.org/basel3/km1">
+  <link:roleRef roleURI="http://bis.org/role/presentationRole" xlink:type="simple" xlink:href="bas3‑km1.xsd#metricsRole"/>
+  <link:presentationLink xlink:type="extended" xlink:role="http://bis.org/role/presentationRole">
+    <link:loc xlink:type="locator" xlink:href="bas3‑km1.xsd#bas3.KM1Table" xlink:label="tbl"/>
+    <link:loc xlink:type="locator" xlink:href="bas3‑km1.xsd#bas3.ASF" xlink:label="ASF"/>
+    <link:presentationArc arcrole="http://www.xbrl.org/2003/arcrole/parent‑child" from="tbl" to="ASF" order="1"/>
+    <link:loc xlink:type="locator" xlink:href="bas3‑km1.xsd#bas3.CAP" xlink:label="CAP"/>
+    <link:presentationArc arcrole="http://www.xbrl.org/2003/arcrole/parent‑child" from="tbl" to="CAP" order="2"/>
+    <link:loc xlink:type="locator" xlink:href="bas3‑km1.xsd#bas3.RWA" xlink:label="RWA"/>
+    <link:presentationArc arcrole="http://www.xbrl.org/2003/arcrole/parent‑child" from="tbl" to="RWA" order="3"/>
+  </link:presentationLink>
+</link:linkbase>

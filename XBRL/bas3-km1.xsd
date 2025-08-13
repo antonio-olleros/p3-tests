@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:xbrli="http://www.xbrl.org/2003/instance"
+        xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+        xmlns:bas3="http://bis.org/basel3/km1"
+        targetNamespace="http://bis.org/basel3/km1"
+elementFormDefault="qualified" >
+
+<xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="https://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+<xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="https://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+
+
+  <!-- Abstract table -->
+  <element name="KM1Table" abstract="true" />
+
+  <!-- Metrics -->
+  <element name="ASF" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <element name="CAP" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <element name="CCB" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <element name="CCYB" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <element name="EXP" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <element name="GSIB_DSIB" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <element name="HDR" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <element name="HQLA" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <element name="NCO" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <element name="RSF" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <element name="RTO" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <element name="RTO_SFT" type="xbrli:decimalItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <element name="RWA" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+  <element name="TSB" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" xbrli:periodType="duration"/>
+
+  <!-- Axes and domains + s -->
+  <!-- Regulatory Domain -->
+  <element name="RegulatoryDomainAxis" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" abstract="true" xbrli:periodType="duration"/>
+  <element name="RegulatoryDomainDomain" substitutionGroup="xbrli:item" abstract="true" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="raAST" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <element name="raCAP" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <element name="raLCR" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <element name="raLVR" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <element name="raNSFR" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <element name="raP1R" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+
+  <!-- Measure -->
+  <element name="MeasureAxis" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" abstract="true" xbrli:periodType="duration"/>
+  <element name="MeasureDomain" substitutionGroup="xbrli:item" abstract="true" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="mASF" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="mCAP" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="mCCB" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="mCCYB" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="mEXP" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="mGSIB_DSIB" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="mHDR" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="mHQLA" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="mNCO" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="mRSF" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="mRTO" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="mRTO_SFT" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="mRWA" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="mTSB" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+
+  <!-- Framework -->
+  <element name="FrameworkAxis" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" abstract="true" xbrli:periodType="duration"/>
+  <element name="FrameworkDomain" substitutionGroup="xbrli:item" abstract="true" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="fCU" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="fFL" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+
+  <!-- Tier -->
+  <element name="TierAxis" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" abstract="true" xbrli:periodType="duration"/>
+  <element name="TierDomain" substitutionGroup="xbrli:item" abstract="true" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="t_T" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="t_Z" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="tCET1" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="tTIER1" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+
+  <!-- Output floor -->
+  <element name="OutputFloorAxis" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" abstract="true" xbrli:periodType="duration"/>
+  <element name="OutputFloorDomain" substitutionGroup="xbrli:item" abstract="true" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="of_Z" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="ofPOST" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="ofPRE" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+
+  <!-- CB reserves -->
+  <element name="CBReservesAxis" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" abstract="true" xbrli:periodType="duration"/>
+  <element name="CBReservesDomain" substitutionGroup="xbrli:item" abstract="true" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="cbr_Z" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="cbrEXC" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+  <element name="cbrINC" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
+
+  <!-- Annotations -->
+  <annotation><appinfo><roleType roleURI="http://bis.org/role/metricsRole" id="metricsRole"/></appinfo></annotation>
+</schema>

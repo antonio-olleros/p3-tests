@@ -1,0 +1,53 @@
+{
+  "documentInfo": {
+    "documentType": "https://xbrl.org/2021/xbrl-csv",
+    "namespaces": {
+      "bas3": "http://bis.org/basel3/km1",
+      "iso4217": "http://www.xbrl.org/2003/iso4217",
+      "scheme": "http://standards.iso.org/iso/17442",
+      "xbrl": "https://xbrl.org/2021"
+    },
+    "taxonomy": [
+      "bas3-km1.xsd"
+    ]
+  },
+  "tables": {
+    "facts": {
+      "template": "facts",
+      "url": "y-facts.csv"
+    }
+  },
+  "tableTemplates": {
+    "facts": {
+      "rowIdColumn": "id",
+      "dimensions": {
+        "concept": "$concept",
+        "entity": "$entity",
+        "period": "$period",
+        "unit": "$unit",
+        "bas3:CBReservesAxis": "$bas3_CBReservesAxis",
+        "bas3:FrameworkAxis": "$bas3_FrameworkAxis",
+        "bas3:OutputFloorAxis": "$bas3_OutputFloorAxis",
+        "bas3:RegulatoryDomainAxis": "$bas3_RegulatoryDomainAxis",
+        "bas3:TierAxis": "$bas3_TierAxis"
+      },
+      "columns": {
+        "id": {},
+        "concept": {},
+        "decimals": {},
+        "entity": {},
+        "period": {},
+        "unit": {},
+        "bas3_CBReservesAxis": {},
+        "bas3_FrameworkAxis": {},
+        "bas3_OutputFloorAxis": {},
+        "bas3_RegulatoryDomainAxis": {},
+        "bas3_TierAxis": {},
+        "value": {
+          "dimensions": {}
+        }
+      },
+      "decimals": "$decimals"
+    }
+  }
+}

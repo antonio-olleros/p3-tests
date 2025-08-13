@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF‑8"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               xmlns:bas3="http://bis.org/basel3/km1">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="bas3‑km1.xsd#bas3.ASF" xlink:label="ASF"/>
+    <link:label xlink:type="resource" xlink:label="labASF" xml:lang="en">Available Stable Funding</link:label>
+    <link:labelArc arcrole="http://www.xbrl.org/2003/arcrole/concept‑label" from="ASF" to="labASF"/>
+    <link:loc xlink:type="locator" xlink:href="bas3‑km1.xsd#bas3.CAP" xlink:label="CAP"/>
+    <link:label xlink:type="resource" xlink:label="labCAP" xml:lang="en">Available Capital</link:label>
+    <link:labelArc arcrole="http://www.xbrl.org/2003/arcrole/concept‑label" from="CAP" to="labCAP"/>
+    <link:loc xlink:type="locator" xlink:href="bas3‑km1.xsd#bas3.RWA" xlink:label="RWA"/>
+    <link:label xlink:type="resource" xlink:label="labRWA" xml:lang="en">Risk‑Weighted Assets (RWA)</link:label>
+    <link:labelArc arcrole="http://www.xbrl.org/2003/arcrole/concept‑label" from="RWA" to="labRWA"/>
+  </link:labelLink>
+</link:linkbase>

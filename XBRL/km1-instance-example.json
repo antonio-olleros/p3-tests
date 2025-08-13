@@ -1,0 +1,889 @@
+{
+ "documentInfo": {
+  "documentType": "https://xbrl.org/2021/xbrl-json",
+  "features": {
+   "xbrl:canonicalValues": true
+  },
+  "namespaces": {
+   "bas3": "http://bis.org/basel3/km1",
+   "iso4217": "http://www.xbrl.org/2003/iso4217",
+   "scheme": "http://standards.iso.org/iso/17442",
+   "xbrl": "https://xbrl.org/2021"
+  },
+  "taxonomy": [
+   "bas3-km1.xsd"
+  ]
+ },
+ "facts": {
+  "f941": {
+   "value": "14.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RWA",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raAST",
+    "bas3:TierAxis": "bas3:t_Z",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f942": {
+   "value": "14.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RWA",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raAST",
+    "bas3:TierAxis": "bas3:t_Z",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f943": {
+   "value": "14.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RWA",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPRE",
+    "bas3:RegulatoryDomainAxis": "bas3:raAST",
+    "bas3:TierAxis": "bas3:t_Z",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f944": {
+   "value": "15.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RWA",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPRE",
+    "bas3:RegulatoryDomainAxis": "bas3:raAST",
+    "bas3:TierAxis": "bas3:t_Z",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f945": {
+   "value": "16.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RWA",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-10-01T00:00:00/2025-01-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPRE",
+    "bas3:RegulatoryDomainAxis": "bas3:raAST",
+    "bas3:TierAxis": "bas3:t_Z",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f946": {
+   "value": "12.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CAP",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f947": {
+   "value": "11.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CAP",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f948": {
+   "value": "12.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CAP",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tTIER1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f949": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CAP",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fFL",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:t_T",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f950": {
+   "value": "18.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CAP",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fFL",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:t_T",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f951": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CAP",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-10-01T00:00:00/2025-01-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fFL",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:t_T",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f952": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CAP",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-07-01T00:00:00/2024-10-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fFL",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:t_T",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f953": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CAP",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-04-01T00:00:00/2024-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fFL",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:t_T",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f954": {
+   "value": "13.3",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CAP",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fFL",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f955": {
+   "value": "12.2",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CAP",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fFL",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f956": {
+   "value": "13.5",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CAP",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-10-01T00:00:00/2025-01-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fFL",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f957": {
+   "value": "14.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CAP",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fFL",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tTIER1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f958": {
+   "value": "14.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CAP",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fFL",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tTIER1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f959": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:t_T",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f960": {
+   "value": "18.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:t_T",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f961": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-10-01T00:00:00/2025-01-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:t_T",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f962": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-07-01T00:00:00/2024-10-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:t_T",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f963": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-04-01T00:00:00/2024-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:t_T",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f964": {
+   "value": "14.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPRE",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:t_T",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f965": {
+   "value": "15.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPRE",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:t_T",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f966": {
+   "value": "16.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-10-01T00:00:00/2025-01-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPRE",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:t_T",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f967": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f968": {
+   "value": "18.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f969": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-10-01T00:00:00/2025-01-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f970": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-07-01T00:00:00/2024-10-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f971": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-04-01T00:00:00/2024-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f972": {
+   "value": "14.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPRE",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f973": {
+   "value": "15.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPRE",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f974": {
+   "value": "16.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-10-01T00:00:00/2025-01-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPRE",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f975": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tTIER1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f976": {
+   "value": "18.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tTIER1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f977": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-10-01T00:00:00/2025-01-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tTIER1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f978": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-07-01T00:00:00/2024-10-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tTIER1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f979": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-04-01T00:00:00/2024-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tTIER1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f980": {
+   "value": "14.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPRE",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tTIER1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f981": {
+   "value": "15.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPRE",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tTIER1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f982": {
+   "value": "16.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-10-01T00:00:00/2025-01-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:ofPRE",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tTIER1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f983": {
+   "value": "14.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fFL",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:t_T",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f984": {
+   "value": "14.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fFL",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:t_T",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f985": {
+   "value": "14.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fFL",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f986": {
+   "value": "14.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fFL",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f987": {
+   "value": "14.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fFL",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tTIER1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f988": {
+   "value": "14.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:RTO",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fFL",
+    "bas3:OutputFloorAxis": "bas3:ofPOST",
+    "bas3:RegulatoryDomainAxis": "bas3:raCAP",
+    "bas3:TierAxis": "bas3:tTIER1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f989": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CCB",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raP1R",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f990": {
+   "value": "18.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CCB",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raP1R",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f991": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CCB",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-10-01T00:00:00/2025-01-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raP1R",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f992": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CCB",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-07-01T00:00:00/2024-10-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raP1R",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f993": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CCB",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-04-01T00:00:00/2024-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raP1R",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f994": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CCYB",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-04-01T00:00:00/2025-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raP1R",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f995": {
+   "value": "18.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CCYB",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2025-01-01T00:00:00/2025-03-31T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raP1R",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f996": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CCYB",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-10-01T00:00:00/2025-01-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raP1R",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f997": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CCYB",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-07-01T00:00:00/2024-10-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raP1R",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  },
+  "f998": {
+   "value": "17.0",
+   "decimals": 0,
+   "dimensions": {
+    "concept": "bas3:CCYB",
+    "entity": "scheme:H7FNTJ4851HG0EXQ1Z70",
+    "period": "2024-04-01T00:00:00/2024-07-01T00:00:00",
+    "bas3:CBReservesAxis": "bas3:cbr_Z",
+    "bas3:FrameworkAxis": "bas3:fCU",
+    "bas3:OutputFloorAxis": "bas3:of_Z",
+    "bas3:RegulatoryDomainAxis": "bas3:raP1R",
+    "bas3:TierAxis": "bas3:tCET1",
+    "unit": "iso4217:USD"
+   }
+  }
+ }
+}

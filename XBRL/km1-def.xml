@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<link:linkbase xmlns:link="http://www.xbrl.org/2003/linkbase"
+               xmlns:xlink="http://www.w3.org/1999/xlink"
+               xmlns:bas3="http://bis.org/basel3/km1">
+
+  <link:roleRef roleURI="http://bis.org/role/definitionRole" xlink:type="simple" xlink:href="bas3-km1.xsd#metricsRole"/>
+
+  <link:definitionLink xlink:type="extended" xlink:role="http://bis.org/role/definitionRole">
+    <!-- RegDomain -->
+    <link:loc xlink:type="locator" xlink:href="bas3-km1.xsd#bas3.RegulatoryDomainAxis" xlink:label="axisReg"/>
+    <link:loc xlink:type="locator" xlink:href="bas3-km1.xsd#bas3.RegulatoryDomainDomain" xlink:label="domReg"/>
+    <link:definitionArc arcrole="http://xbrl.org/int/dim/arcrole/domain-member" from="axisReg" to="domReg" order="1"/>
+
+    <link:loc xlink:type="locator" xlink:href="bas3-km1.xsd#bas3.ASTMember" xlink:label="ast"/>
+    <link:definitionArc arcrole="http://xbrl.org/int/dim/arcrole/domain-member" from="domReg" to="ast" order="1"/>
+    <link:loc xlink:type="locator" xlink:href="bas3-km1.xsd#bas3.CAPMember" xlink:label="capm"/>
+    <link:definitionArc arcrole="http://xbrl.org/int/dim/arcrole/domain-member" from="domReg" to="capm" order="2"/>
+    <link:loc xlink:type="locator" xlink:href="bas3-km1.xsd#bas3.LCRMember" xlink:label="lcrm"/>
+    <link:definitionArc arcrole="http://xbrl.org/int/dim/arcrole/domain‑member" from="domReg" to="lcrm" order="3"/>
+    <!-- Continue for LVR, NSFR, P1R -->
+  </link:definitionLink>
+</link:linkbase>
