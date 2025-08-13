@@ -87,15 +87,6 @@ elementFormDefault="qualified" >
   <element name="cbrEXC" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
   <element name="cbrINC" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
 
-  <!-- Reporting period -->
-  <element name="ReportingPeriodAxis" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" abstract="true" xbrli:periodType="duration"/>
-  <element name="ReportingPeriodDomain" substitutionGroup="xbrli:item" abstract="true" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-  <element name="rpT" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-  <element name="rpT-1" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-  <element name="rpT-2" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-  <element name="rpT-3" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-  <element name="rpT-4" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"/>
-
   <!-- Annotations -->
   <annotation><appinfo><roleType roleURI="http://bis.org/role/metricsRole" id="metricsRole"/></appinfo></annotation>
 </schema>
