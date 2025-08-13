@@ -14,7 +14,7 @@
   "tables": {
     "facts": {
       "template": "facts",
-      "url": "y-facts.csv"
+      "url": "km1-instance-example-facts.csv"
     }
   },
   "tableTemplates": {
